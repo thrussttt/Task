@@ -11,3 +11,8 @@ def permutations(s):
             perms.append(c + perm)
     return perms
 
+# Пример использования
+
+result = permutations("abc")
+for perm in result:
+    print(perm)
